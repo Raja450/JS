@@ -38,3 +38,12 @@ const myn2 =myArr.splice(1,3)
 console.log("C", myArr);
 console.log(myn2);
 
+
+const marvel_heros = ["thor", "ironman", "spiderman"]
+const dc_heros =["superman", "flash", "batman"]
+
+// marvel_heros.push(dc_heros)
+// console.log(marvel_heros);
+
+marvel_heros.concat(dc_heros)
+console.log(marvel_heros);
